@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+
+    aside{
+        width: 30%;
+        height: 100vh;
+        display: flex;
+        flex-flow: column;
+        background-color: white;
+
+        .aside-usuario{
+            display: flex;
+            justify-content: space-between;
+
+            .usuario{
+                
+            }
+        }
+    }
+
+    main{
+        width: 70%;
+        height: 100vh;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        background-color: #f8f8f8;
+        flex-grow: 1;
+
+
+        figure{
+           padding: 20px;
+           display: flex;
+           flex-flow: column;
+           align-items: center;
+           text-align: center;
+           
+
+           img{
+                width: 50%;
+           }
+        }
+
+        .caja-main{
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            max-width: 500px;
+            text-align: center;
+        }
+    }
+}
