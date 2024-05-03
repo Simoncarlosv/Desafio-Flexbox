@@ -8,7 +8,7 @@ body{
     display: flex;
 
     aside{
-        width: 30%;
+        width: 20%;
         height: 100vh;
         display: flex;
         flex-flow: column;
@@ -16,16 +16,46 @@ body{
 
         .aside-usuario{
             display: flex;
+            align-items: center;
             justify-content: space-between;
+            padding: 25px;
 
             .usuario{
-                
+                display: flex;
+                flex-flow: row;
+                align-items: center;
+                gap: 15px;
+
+                .foto-usuario{
+                    width: 18%;
+
+                    img{
+                        width: 100%;
+                        border-radius: 50%;
+                    }
+                }
+            }
+
+            .iconos{
+                display: flex;
+                flex-flow: row;
+                gap: 15px;
+
+                i{
+                    font-size: 20px;
+                    color: #bec0c0;
+                    cursor: pointer;
+                    transition: 0.3s;
+                }
+                i:hover{
+                    color: #a491d3;
+                }
             }
         }
     }
 
     main{
-        width: 70%;
+        width: 80%;
         height: 100vh;
         display: flex;
         flex-flow: column;

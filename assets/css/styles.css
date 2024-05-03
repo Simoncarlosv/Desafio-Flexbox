@@ -8,7 +8,7 @@ body {
   display: flex;
 }
 body aside {
-  width: 30%;
+  width: 20%;
   height: 100vh;
   display: flex;
   flex-flow: column;
@@ -16,10 +16,39 @@ body aside {
 }
 body aside .aside-usuario {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  padding: 25px;
+}
+body aside .aside-usuario .usuario {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 15px;
+}
+body aside .aside-usuario .usuario .foto-usuario {
+  width: 18%;
+}
+body aside .aside-usuario .usuario .foto-usuario img {
+  width: 100%;
+  border-radius: 50%;
+}
+body aside .aside-usuario .iconos {
+  display: flex;
+  flex-flow: row;
+  gap: 15px;
+}
+body aside .aside-usuario .iconos i {
+  font-size: 20px;
+  color: #bec0c0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+body aside .aside-usuario .iconos i:hover {
+  color: #a491d3;
 }
 body main {
-  width: 70%;
+  width: 80%;
   height: 100vh;
   display: flex;
   flex-flow: column;
